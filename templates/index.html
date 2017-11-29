@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      
+    <html class="no-js lt-ie9 lt-ie8 lt-ie7"> 
+<![endif]-->
+<!--[if IE 7]>         
+    <html class="no-js lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>         
+    <html class="no-js lt-ie9"> 
+<![endif]-->
+<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+		<meta charset="utf-8">
+        <title>Hiren Pattani</title>
+		
+		<link href="http://fonts.googleapis.com/css4a58.css?family=Roboto:100,300,400,700%7CSource+Serif+Pro" rel="stylesheet">
+		<!--- Portfolio-Google-Fonts End -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Favicon Images -->
+		<link rel="icon" href="{{url_for('static', filename = 'images/favicon/favicon-image.ico')}}">
+		<!--
+	    <link rel="apple-touch-icon" href="{{url_for('static', filename = 'images/favicon/apple-touch-icon.png')}}">
+	    <link rel="apple-touch-icon" sizes="57x57" href="{{url_for('static', filename = 'images/favicon/apple-touch-icon-57x57.png')}}">
+	    <link rel="apple-touch-icon" sizes="72x72" href="{{url_for('static', filename = 'images/favicon/apple-touch-icon-72x72.png')}}">
+	    <link rel="apple-touch-icon" sizes="114x114" href="{{url_for('static', filename = 'images/favicon/apple-touch-icon-114x114.png')}}">
+	    <link rel="apple-touch-icon" sizes="144x144" href="{{url_for('static', filename = 'images/favicon/apple-touch-icon-144x144.png')}}">-->
+
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.css') }}">
+        <!--- Portfolio-font-awesome.css End-->
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+		<!--- Portfolio-bootstrap.css End -->
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+		<!--- Portfolio-magnific-popup.css End -->
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/sidebar.css') }}">
+		<!--- Portfolio-sidebar.css End -->
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/et-line.css') }}">
+        <!--- Portfolio-et-line.css End -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/isotope.css') }}">
+        <!--- Portfolio-isotope.css End-->
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+		<!--- portfolio-style.css End -->
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/responsive.css') }}">
+		<!-- Portfolio-responsive.css End -->
+
+  		<!-- Condition script for ie for responsive and html5 -->
+        <!--[if lt IE 9]> 
+            <script src="{{url_for('static', filename = 'js/html5shiv.js')}}"></script>
+            <script src="{{url_for('static', filename = 'js/respond.js')}}"></script>
+        <![endif]-->
+
+	</head>
+	<body class="lunatic-yellow-item">
+				
+		<div id="preloader"></div>
+		<!--- #preloader End -->
+		
+		<div id="portfolio-header-iteam" class="portfolio-header-area">
+			<div class="portfolio-header-section-clume">
+				<div class="portfolio-logo">
+					<!--<a href="/"><img src="{{ url_for('static', filename='images/portfolio-logo.png') }}" alt=""></a>-->
+					<a href="/"><h1 style="color: #fff"><strong>HIREN</strong></h1></a>
+				</div>
+			</div>
+			<nav id="menu" class="menu">
+				<button class="menu__handle"><span>Menu</span></button>
+				<div class="portfolio-menu-scroll">
+					<ul class="portfolio-menu-scroll">
+						<li><a href="{{ request.path }}">Home</a></li>
+						<li><a href="#portfolio-about-item">About Us</a></li>
+						<li><a href="#portfolio-resume-iteam">Resume</a></li>
+						<li><a href="#portfolio-gallery-iteam">Gallery</a></li>
+						<li><a href="#portfolio-service-iteam">Service</a></li>
+						<li><a href="#portfolio-contact-iteam">Contact</a></li>
+					</ul>
+				</div>
+				<div class="morph-shape" data-morph-open="M300-10c0,0,295,164,295,410c0,232-295,410-295,410" data-morph-close="M300-10C300-10,5,154,5,400c0,232,295,410,295,410">
+					<svg width="100%" height="100%" viewBox="0 0 600 800" preserveAspectRatio="none">
+						<path fill="none" d="M300-10c0,0,0,164,0,410c0,232,0,410,0,410"/>
+					</svg>
+				</div>
+			</nav>
+			<div class="elastic_overly"></div>
+			<div class="container portfolio-single-contant">
+				<div class="portfolio-header-content">
+					<h1><span>C</span>reative <br/> <span>W</span>eb <span>D</span>eveloper</h1>
+				</div>
+			</div>
+		</div><!--- Portfolio-header-area End -->
+
+
+		<section id="portfolio-about-item" class="portfolio-about-area">
+			<div class="container">
+				<div class="portfolio-common-cls">
+					<h2>About Me</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="portfolio-about-section-left">
+							<p style="text-align: justify">"Hi, I am <span> HIREN <br> PATTANI, </span> a creative <br> Web Developer."</p>
+						</div>	
+					</div>
+					<div class="col-md-8">	
+						<div class="portfolio-about-section-right">
+							<p>"Having the pleasure to work with people I meet on the way, I'm always curious about new projects or ideas. for more, <span>See My Resume.</span></p>
+							<a class="portfolio-download-button" href="{{url_for('static',filename = 'resume.pdf')}}" download>
+							Download Resume<i class="fa fa-download"></i></a>
+						</div>	
+					</div>	
+				</div>
+			</div>
+		</section><!--- portfolio-about-area End -->
+
+		<section id="portfolio-resume-iteam" class="portfolio-resume-area">
+			<div class="container">
+				<div class="portfolio-common-cls">
+					<h2>Resume</h2>
+				</div>
+				<div class="resume-inner-colume">
+					<div class="col-md-6 col-sm-6">
+						<div class="resume-inner-single-colume">
+							<div class="resume-inner-single-top-colume">
+								<span class=" icon-book-open"></span>
+								<h2>Education</h2>
+							</div>
+							<div class="resume-inner-single-bottom-colume">
+								<div class="resume-inner-single-bottom-colume-section">
+									<span class="icon-layers"></span>
+									<h3>B.E. <strong>[Computer Science & Engineering]</strong></h3>
+									<h4>[2013-2017]</h4>
+									<h4>NOBLE GROUP OF INSTITUTIONS</h4>
+									<h4>CGPA : 7.36</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="resume-inner-single-colume">
+							<div class="resume-inner-single-top-colume">
+								<span class="icon-briefcase"></span>
+								<h2>Experience</h2>
+							</div>
+							<div class="resume-inner-single-bottom-colume">
+								<div class="resume-inner-single-bottom-colume-section">
+									<span class="icon-circle-compass"></span>
+									<h3>Web Developer <em> at</em> <strong>Sanskar Technolab Pvt. Ltd.</strong></h3>
+									<h4>[February, 2016-Current]</h4>
+								</div>
+								<div class="resume-inner-single-bottom-colume-section">
+									<span class="icon-tools"></span>
+									<h3>PHP Trainee <em> at</em> <strong>Sanskar Technolab Pvt. Ltd.</strong></h3>
+									<h4>[August, 2016-November, 2016]</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--- Portfolio-resume-area End -->
+
+		<section id="portfolio-gallery-iteam" class="portfolio-gallery-area">
+			<div class="container">
+				<div class="portfolio-common-cls">
+					<h2>Portfolio</h2>
+				</div>
+					<div class="portfolio-gallery-manu">
+						<div class="watch-gallery-nav">
+							<ul id="watch-filter-gallery" class="option-set clear-both" data-option-key="filter">
+								<li data-option-value="*"><a href="#">All</a></li>
+								<li data-option-value=".Photograph"><a href="#">Photograph</a></li>
+								<li data-option-value=".Design"><a href="#">Design</a></li>
+								<li data-option-value=".Sketch"><a href="#">Sketch</a></li>
+								<li data-option-value=".Vector"><a href="#">Vector</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="portfolio-gallery-img" id="portfolio-items">
+					<div class="collection-grid-item Photograph">
+						<div class="portfolio-gallery-inner">
+							<div class="portfolio-gallery-single-hover-item">
+								<a href="images/gallery-img-1.jpg" title="Hanger">
+									<img src="{{ url_for('static', filename='images/gallery-img-1.jpg') }}" alt="">
+									<div class="portfolio-gallery-hover-item">
+										<div class="portfolio-gallery-hover-text-item">
+											<h2>Hanger</h2>
+											<p>As opposed to using ontent here, content here'making it look like read.</p>
+										</div>					
+									</div>
+								</a>					
+							</div>
+						</div>
+					</div>
+					<div class="collection-grid-item photoshop">
+						<div class="portfolio-gallery-inner">
+							<div class="portfolio-gallery-single-hover-item">
+								<a href="images/gallery-img-2.jpg" title="portfolio">
+									<img src="{{ url_for('static', filename='images/gallery-img-2.jpg') }}" alt="">
+									<div class="portfolio-gallery-hover-item">
+										<div class="portfolio-gallery-hover-text-item">
+											<h2>Hanger</h2>
+											<p>As opposed to using ontent here, content here'making it look like read.</p>
+										</div>					
+									</div>
+								</a>					
+							</div>
+						</div>
+					</div>
+					<div class="collection-grid-item Design">
+						<div class="portfolio-gallery-inner">
+							<div class="portfolio-gallery-single-hover-item">
+								<a href="images/gallery-img-3.jpg" title="content">
+									<img src="{{ url_for('static', filename='images/gallery-img-3.jpg') }}" alt="">
+									<div class="portfolio-gallery-hover-item">
+										<div class="portfolio-gallery-hover-text-item">
+											<h2>Hanger</h2>
+											<p>As opposed to using ontent here, content here'making it look like read.</p>
+										</div>					
+									</div>
+								</a>					
+							</div>
+						</div>
+					</div>
+					<div class="collection-grid-item Design">
+						<div class="portfolio-gallery-inner">
+							<div class="portfolio-gallery-single-hover-item">
+								<a href="images/gallery-img-4.jpg" title="gallery">
+									<img src="{{ url_for('static', filename='images/gallery-img-4.jpg') }}" alt="">
+									<div class="portfolio-gallery-hover-item">
+										<div class="portfolio-gallery-hover-text-item">
+											<h2>Hanger</h2>
+											<p>As opposed to using ontent here, content here'making it look like read.</p>
+										</div>					
+									</div>
+								</a>					
+							</div>
+						</div>
+					</div>
+					<div class="collection-grid-item Design">
+						<div class="portfolio-gallery-inner">
+							<div class="portfolio-gallery-single-hover-item">
+								<a href="images/gallery-img-5.jpg" title="Vector">
+									<img src="{{ url_for('static', filename='images/gallery-img-5.jpg') }}" alt="">
+									<div class="portfolio-gallery-hover-item">
+										<div class="portfolio-gallery-hover-text-item">
+											<h2>Hanger</h2>
+											<p>As opposed to using ontent here, content here'making it look like read.</p>
+										</div>					
+									</div>
+								</a>					
+							</div>
+						</div>
+					</div>
+					<div class="collection-grid-item Sketch">
+						<div class="portfolio-gallery-inner">
+							<div class="portfolio-gallery-single-hover-item">
+								<a href="images/gallery-img-6.jpg" title="magnific">
+									<img src="{{ url_for('static', filename='images/gallery-img-6.jpg') }}" alt="">
+									<div class="portfolio-gallery-hover-item">
+										<div class="portfolio-gallery-hover-text-item">
+											<h2>Hanger</h2>
+											<p>As opposed to using ontent here, content here'making it look like read.</p>
+										</div>					
+									</div>
+								</a>					
+							</div>
+						</div>
+					</div>
+					<div class="collection-grid-item Sketch">
+						<div class="portfolio-gallery-inner">
+							<div class="portfolio-gallery-single-hover-item">
+								<a href="images/gallery-img-9.jpg" title="Sketch">
+									<img src="{{ url_for('static', filename='images/gallery-img-9.jpg') }}" alt="">
+									<div class="portfolio-gallery-hover-item">
+										<div class="portfolio-gallery-hover-text-item">
+											<h2>Hanger</h2>
+											<p>As opposed to using ontent here, content here'making it look like read.</p>
+										</div>					
+									</div>
+								</a>				
+							</div>
+						</div>
+					</div>
+					<div class="collection-grid-item Vector">
+						<div class="portfolio-gallery-inner">
+							<div class="portfolio-gallery-single-hover-item">
+								<a href="images/gallery-img-8.jpg" title="Photograph">
+									<img src="{{ url_for('static', filename='images/gallery-img-8.jpg') }}" alt="">
+									<div class="portfolio-gallery-hover-item">
+										<div class="portfolio-gallery-hover-text-item">
+											<h2>Hanger</h2>
+											<p>As opposed to using ontent here, content here'making it look like read.</p>
+										</div>					
+									</div>
+								</a>					
+							</div>
+						</div>
+					</div>
+					<div class="collection-grid-item Vector">
+						<div class="portfolio-gallery-inner">
+							<div class="portfolio-gallery-single-hover-item">
+								<a href="images/gallery-img-7.jpg" title="Design">
+									<img src="{{ url_for('static', filename='images/gallery-img-7.jpg') }}" alt="">
+									<div class="portfolio-gallery-hover-item">
+										<div class="portfolio-gallery-hover-text-item">
+											<h2>Hanger</h2>
+											<p>As opposed to using ontent here, content here'making it look like read.</p>
+										</div>					
+									</div>
+								</a>					
+							</div>
+						</div>
+					</div>				
+				</div>
+				<!--<div class="portfolio-single-button">
+					<button>Load More</button>
+				</div>-->
+			</div>
+		</section><!--- Portfolio-gallery-area End -->
+
+		<section id="portfolio-service-iteam" class="portfolio-service-area">
+			<div class="container">
+				<div class="portfolio-common-cls-three">
+					<h2>Service</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<div class="portfolio-service-single-colume">
+							<div class="portfolio-service-et-line">
+								<span class=" icon-briefcase"></span>
+								<h3>Web Design</h3>
+							</div>
+							<div class="portfolio-service-text">
+								<p>passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="portfolio-service-single-colume">
+							<div class="portfolio-service-et-line">
+								<span class=" icon-briefcase"></span>
+								<h3>Web Design</h3>
+							</div>
+							<div class="portfolio-service-text">
+								<p>passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="portfolio-service-single-colume">
+							<div class="portfolio-service-et-line">
+								<span class=" icon-briefcase"></span>
+								<h3>Web Design</h3>
+							</div>
+							<div class="portfolio-service-text">
+								<p>passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="portfolio-service-single-colume">
+							<div class="portfolio-service-et-line">
+								<span class=" icon-briefcase"></span>
+								<h3>Web Design</h3>
+							</div>
+							<div class="portfolio-service-text">
+								<p>passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="portfolio-service-single-colume">
+							<div class="portfolio-service-et-line">
+								<span class=" icon-briefcase"></span>
+								<h3>Web Design</h3>
+							</div>
+							<div class="portfolio-service-text">
+								<p>passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="portfolio-service-single-colume">
+							<div class="portfolio-service-et-line">
+								<span class=" icon-briefcase"></span>
+								<h3>Web Design</h3>
+							</div>
+							<div class="portfolio-service-text">
+								<p>passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--- portfolio-service-area End -->
+
+		<div id="portfolio-contact-iteam" class="portfolio-contact-form-area">
+			<div class="portfolio-contact-form">
+				<div class="container">
+					<div class="portfolio-common-cls">
+						<h2>Get In Touch</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="portfolio-contact-form-left">
+								<p>Prabhat Art Studio, Station road, Dhoraji, Gujarat, India.
+								 <br/>+91 940 940 4413
+								 <br/>www.hirenpattani.com</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="portfolio-contact-form-right">
+								<h2>Leave a messege</h2>
+								<div class="portfolio-contact-form-right-input">
+									<form action="/contact" method="POST">
+										<div class="form-group input-group-left">
+											<input name="name" id="name"  placeholder="Name">
+										</div>
+										<div class="form-group input-group-right">
+											<input  name="email" id="email"  placeholder="Email">
+										</div>
+										<div class="form-group">
+											<textarea name="textarea" id="message"  placeholder="Messege"></textarea>
+										</div>
+										<div class="fortfolio-button">
+											<input type="submit" id="submit" value="Send">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div><!--- portfolio-contact-form-area End -->
+
+		<div class="google-map-area">
+			<div id="map"></div>
+		</div><!--- portfolio-google-map-area End -->
+
+		<div class="fortfolio-fotter-area">
+			<div class="container">
+				<div class="fotter-social-icon">
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="fotter-content">
+					<p><span>&copy;</span> HIREN PATTANI | 2017</p>
+				</div>
+			</div>
+		   <div class="body-scrollup">
+			    <a href="#" class="scrollup">
+			    	<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+			    </a>
+			</div>
+		</div><!--- fortfolio-fotter-area End -->
+
+
+
+
+		
+	    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.1.1.min.js') }}"></script>
+	    <!--- jquery-3.1.1.min.js End  -->
+	    <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	    <!--- bootstrap.min.js End  -->
+	    <script type="text/javascript" src="{{ url_for('static', filename='js/isotope.pkgd.min.js') }}"></script>
+	   	<!--- isotope.pkgd.min.js End  -->
+	    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+	    <!---jquery.magnific-popup.min.jsEnd  -->
+	    <script type="text/javascript" src="{{ url_for('static', filename='js/contact-form.js') }}"></script>
+	    <!--- contact-form.js End  -->
+	    <script type="text/javascript" src="{{ url_for('static', filename='js/snap.svg-min.js') }}"></script>
+	     <!---snap.svg-min.js End  -->
+	    <script type="text/javascript" src="{{ url_for('static', filename='js/classie.js') }}"></script>
+	    <!--- classie.js End  -->
+	    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&amp;key=AIzaSyAEE3I0Ivak1hATZXLd89Hed_c6Bk8pTbw"></script>
+	    <!---google-map js End  -->
+	    <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+		<!---main.js End  -->
+		
+	</body>
+
+</html>

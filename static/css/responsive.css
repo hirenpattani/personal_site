@@ -1,0 +1,289 @@
+
+/*For bigger screen then normal 960px desktop*/
+@media (max-width: 1350px) {
+
+.portfolio-header-content h1 {
+     margin-left: 10%
+  }
+.portfolio-header-area {
+  background-position: right center;
+  }
+.portfolio-service-text p {
+  font-size: 17px;
+}
+.portfolio-contact-form-left p {
+  font-size: 22px;
+}
+
+}
+
+
+/*For Tablet Layout*/
+@media (min-width: 768px) and (max-width: 991px) {
+.portfolio-header-content h1 {
+  font-size: 75px;
+  margin-left: 20%;
+}
+.portfolio-header-area {
+  background-position: right center;
+}
+.portfolio-main-menu {
+  display: block !important;
+}
+.portfolio-contact-form-left {
+  margin-bottom: 70px;
+}
+.fortfolio-contat-form-button {
+  text-align: center;
+}
+.portfolio-about-area {
+  padding: 80px 0;
+}
+.portfolio-resume-area {
+  padding: 80px 0;
+}
+.portfolio-gallery-area {
+  padding: 80px 0;
+}
+.portfolio-service-area {
+  padding: 80px 0;
+}
+.portfolio-contact-form-area {
+  padding: 80px 0;
+}
+.portfolio-common-cls {
+  margin-bottom: 80px;
+}
+.portfolio-service-colume {
+  margin-bottom: 80px;
+}
+
+}
+
+/*For Wide Mobile Layout*/
+  @media (max-width: 767px) {
+
+.portfolio-main-menu {
+  display: none;
+}
+.elastic_menu {
+  display: block;
+}
+
+.portfolio-header-content h1 {
+  margin-left: 0;
+  font-size: 70px;
+}
+.portfolio-header-area {
+  background-position: right center;
+}
+
+.portfolio-logo {
+  padding: 10px;
+}
+
+.portfolio-main-menu {
+  background-color: #000;
+  display: none;
+  top: 265%;
+  width: 100%;
+}
+.container.portfolio-single-contant {
+  height: calc(100% - 200px);
+}
+.portfolio-about-area {
+  text-align: center;
+  padding: 60px 0;
+}
+.portfolio-about-section-left p {
+  font-size: 33px;
+  margin-bottom: 60px;
+}
+.portfolio-about-section-right p {
+  font-size: 21px;
+}
+.portfolio-resume-area {
+  padding: 60px 0;
+  text-align: center;
+}
+.portfolio-resume-content-right {
+  text-align: center;
+}
+.portfolio-gallery-area {
+  text-align: center;
+  padding: 60px 0;
+}
+.portfolio-gallery-hover-text-item {
+  bottom: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.portfolio-gallery-hover-item h2 {
+  font-size: 30px;
+}
+.portfolio-gallery-hover-item p {
+  font-size: 17px;
+}
+.portfolio-service-et-line span {
+  display: block;
+  margin-right: 0;
+}
+/*.portfolio-service-single-colume {
+  min-height: 200px;
+}*/
+.portfolio-common-cls {
+  margin-bottom: 60px;
+}
+.portfolio-service-colume {
+  margin-bottom: 60px;
+}
+.portfolio-service-text p {
+  width: 51%;
+  margin: 0 auto;
+}
+.portfolio-contact-form-left {
+  margin-bottom: 65px;
+}
+.portfolio-gallery-manu ul li a {
+  font-size: 20px;
+  margin-right: 12px;
+}
+.portfolio-gallery-single-hover-item img {
+  width: 100%;
+}
+.portfolio-service-area {
+  padding: 60px 0;
+  text-align: center;
+}
+.portfolio-contact-form-area {
+  text-align: center;
+  padding: 60px 0;
+}
+.about-txt-section h2 {
+  font-size: 29px;
+}
+.about-txt-section h3 {
+  font-size: 21px;
+}
+.about-txt-section p {
+  font-size: 15px;
+}
+.resume-inner-colume::before {
+  display: none;
+}
+.portfolio-resume-content-right-one {
+  text-align: center;
+}
+.portfolio-resume-content-left-single-item-one h3 {
+  font-size: 20px;
+}
+.portfolio-resume-content-left-single-item-one p {
+  font-size: 15px;
+}
+.portfolio-resume-content-right-single-item-one h3 {
+  font-size: 20px;
+}
+.portfolio-resume-content-right-single-item-one p {
+  font-size: 15px;
+}
+}
+
+/*For 320-384px up Mobile Layout*/
+@media (max-width: 479px) {
+
+  .portfolio-main-menu {
+  display: none;
+}
+.elastic_menu {
+  display: block;
+}
+
+.portfolio-header-content h1 {
+  font-size: 48px;
+}
+.portfolio-header-area {
+  background-position: right center;
+}
+.portfolio-header-area {
+  min-height: 480px;
+}
+.portfolio-about-section-left p {
+  font-size: 29px;
+  line-height: 45px;
+}
+.portfolio-about-section-right p {
+  font-size: 18px;
+  line-height: 35px;
+}
+.portfolio-resume-content-left-single-item h3 {
+  font-size: 18px;
+}
+.portfolio-resume-content-left-single-item p {
+  font-size: 14px;
+  line-height: 30px;
+}
+.portfolio-resume-content-right-single-item h3 {
+  font-size: 18px;
+}
+.portfolio-resume-content-right-single-item p {
+  font-size: 14px;
+  line-height: 30px;
+}
+.portfolio-service-text p {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 16px;
+  line-height: 30px;
+}
+.portfolio-contact-form-left p {
+  font-size: 15px;
+}
+.portfolio-contact-form-right h2 {
+  font-size: 18px;
+}
+.portfolio-gallery-hover-item p {
+  font-size: 14px;
+}
+.portfolio-gallery-manu ul li a {
+  font-size: 19px;
+}
+.input-group-left {
+  width: 100%;
+}
+.input-group-right {
+  width: 100%;
+}
+.resume-inner-colume::before {
+  display: none;
+}
+.resume-inner-single-bottom-colume-section {
+  width: 100%;
+}
+.morph-shape {
+  right: 24px;
+}
+.elastic_menu.menu.menu--open + .main{
+  background: #000 none repeat scroll 0 0;
+  height: 100%;
+  opacity: 0.7;
+  pointer-events: none;
+  position: fixed;
+  transition: all 0.6s ease 0s;
+  width: 100%;
+  z-index: 9;
+}
+.portfolio-resume-content-left-single-item-one h3 {
+  font-size: 17px;
+}
+.portfolio-resume-content-left-single-item-one p {
+  font-size: 13px;
+  line-height: 28px;
+}
+.portfolio-resume-content-right-single-item-one h3 {
+  font-size: 17px;
+}
+.portfolio-resume-content-right-single-item-one p {
+  font-size: 13px;
+  line-height: 28px;
+}
+}
